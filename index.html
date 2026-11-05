@@ -8,12 +8,20 @@
 </head>
 
 <body>
+    <center>
+        
+        <h1>Ventana Principal</h1>
 
-    <h1>Ventana Principal</h1>
+        <p>
+            Pulsa el botón para abrir la ventana satélite.
 
-    <button id="btnLanzar">
-        Lanzar Ventana Satélite
-    </button>
+        </p>
+
+        <button id="btnLanzar">
+            Lanzar Ventana Satélite
+        </button>
+
+    </center>
 
     <script>
         const boton = document.getElementById('btnLanzar');
@@ -28,6 +36,7 @@
 
             window.open("satelite.html", "satelite", `width=${ancho}, height=${alto}, left=${izquierda}, top=${arriba}`);
         });
+
 
     </script>
 
